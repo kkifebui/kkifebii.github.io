@@ -1,9 +1,5 @@
 # KKI FEB UI Programming Workshop
 
-Sesi 01
-Sesi 02
-Sesi 03
-Sesi 04
-Sesi 05
-Sesi 06
-Sesi 07
+This repository contains class materials for the KKI FEB UI Programming Workshop
+
+Click on the session files ending in `.md` to view them. The materials are presented with the use of a Python REPL in mind, especially JupyterLab.
