@@ -227,5 +227,5 @@ a = not 'c' + 1 and False**2
 
 ## Next Session
 
-- Collections
+- Containers
 - Objects

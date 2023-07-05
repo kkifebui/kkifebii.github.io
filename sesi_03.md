@@ -300,5 +300,5 @@ print(x)
 - I/O
 - Functions
 - Modules
-- Matplotlib (!)
+- Matplotlib
 - Control Flow
