@@ -9,8 +9,8 @@
 
 ## An Example
 
-- In the [“Quick Start Guide”][https://matplotlib.org/stable/tutorials/introductory/quick_start.html#coding-styles] we find that here are several style of using Matplotlib
-- In this workshop we will focus on the “pyplot style” as in the [Pyplot Tutorial][https://matplotlib.org/stable/tutorials/introductory/pyplot.html] page: 
+- In the [“Quick Start Guide”](https://matplotlib.org/stable/tutorials/introductory/quick_start.html#coding-styles]) we find that here are several style of using Matplotlib
+- In this workshop we will focus on the “pyplot style” as in the [Pyplot Tutorial](https://matplotlib.org/stable/tutorials/introductory/pyplot.html) page: 
 
 ```python
 import matplotlib.pyplot as plt
@@ -39,7 +39,7 @@ plt.axis(xmin=0, xmax, ymin=0, ymax)
 plt.show()
 ```
 
-- Other general customizations can be found at the [`matplotlib.pyplot`][https://matplotlib.org/stable/api/pyplot_summary.html] page; feel free to experiment
+- Other general customizations can be found at the [`matplotlib.pyplot`](https://matplotlib.org/stable/api/pyplot_summary.html) page; feel free to experiment
 - There are more specific customizations which depend on the diagram to be produced
 - We will discuss how Matplotlib can be used to generate the following basic diagrams:
     - Line graphs
@@ -64,7 +64,7 @@ plt.show()
 - Note that this time we used keyword arguments to make sure pyplot receives our data correctly
 - Technically, the `plot()` function takes in “NumPy arrays” which we will briefly discuss later
 - The short version is that normal tuples and lists work just fine; Matplotlib takes care of the rest
-- More information about the `plot()` function can be found at its [documentation page][https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html]
+- More information about the `plot()` function can be found at its [documentation page](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
 - This includes keyword arguments which allow you to customize the line graphs you make, for example:
 
 ```python
@@ -75,7 +75,7 @@ plt.show()
 ```
 
 - This is similar to how line graphs are made in R
-- The `plot()` function’s documentation also recommends you go through [this page][https://matplotlib.org/stable/api/_as_gen/matplotlib.lines.Line2D.html] for more keyword arguments related to customizing line graphs
+- The `plot()` function’s documentation also recommends you go through [this page](https://matplotlib.org/stable/api/_as_gen/matplotlib.lines.Line2D.html) for more keyword arguments related to customizing line graphs
 
 ## Scatter Plots
 
@@ -90,7 +90,7 @@ plt.scatter(x=(1, 3, 5), y=[5,0,3], color=‘’, marker=‘’, markersize=)
 plt.show()
 ```
 
-- More information about the `scatter()` function can be found at its [documentation page][https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html]
+- More information about the `scatter()` function can be found at its [documentation page](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
 
 ## Pie Charts and Bar Charts
 
@@ -109,7 +109,7 @@ plt.pie(x=[20,10], labels=[‘Yes’,’No’])
 plt.show()
 ```
 
-- More information about both functions can be found at their documentation pages, including how to better customize the diagrams; [this one][https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html] covers bar charts whereas [this one][https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html] covers pie charts
+- More information about both functions can be found at their documentation pages, including how to better customize the diagrams; [this one](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html) covers bar charts whereas [this one](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pie.html) covers pie charts
 
 ## Saving Diagrams
 
@@ -132,7 +132,7 @@ plt.bar(x=[‘Yes’, ‘No’], height=[20,10])
 plt.savefig(fname=‘barchart.pdf’, format=‘pdf’)
 ```
 
-- More information about the `savefig()` function can be found at its [documentation page][https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html]
+- More information about the `savefig()` function can be found at its [documentation page](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html)
 
 ## Summary
 
