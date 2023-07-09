@@ -325,5 +325,3 @@ print(fizzbuzz)
 ## Next Session
 
 - Matplotlib
-- Pandas
-- Assignment 1 Revisited
