@@ -19,5 +19,5 @@
 ## Assignment 3
 
 1. Get a text file (minimum 500 words) based on the work of an actor/singer/author/blogger/…
-2. Produce a bar and pie chart for the top 5 words in the text file and explain how your code works
+2. Produce a bar and pie chart for the 5 most frequent words in the text file and explain how your code works
 3. Discuss what the results mean for the actor/singer/author/blogger/…
