@@ -154,5 +154,4 @@ plt.savefig(fname=‘barchart.pdf’, format=‘pdf’)
 
 ## Next Session
 
-- Pandas
-- NumPy
+- Pandas Part 1
